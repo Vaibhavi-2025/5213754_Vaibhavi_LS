@@ -1,0 +1,27 @@
+##Create a branch "featureOne" and view the commit history in this branch. Make a change to a file and merge it back into the master branch. Then, make simultaneous changes to the same file to cause conflict and do the merge again.
+
+
+ mkdir GitConflictDemo
+cd GitConflictDemo
+git init
+echo "This is the original content." > file.txt
+git add file.txt
+git commit -m "Initial commit with file.txt"
+git checkout -b featureOne
+echo "Adding a new line from featureOne branch." >> file.txt
+git add file.txt
+git commit -m "Added a line from featureOne"
+git checkout master
+git merge featureOne
+echo "Conflict line from master branch." > file.txt
+git add file.txt
+git commit -m "Modified file.txt in master to cause conflict"
+git checkout featureOne
+echo "Conflict line from featureOne branch." > file.txt
+git add file.txt
+git commit -m "Modified file.txt in featureOne to cause conflict"
+git checkout master
+git merge featureOne
+git add file.txt
+git commit -m "Resolved merge conflict between master and featureOne"
+git log --oneline --all --graph --decorate

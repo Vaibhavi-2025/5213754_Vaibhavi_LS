@@ -1,0 +1,57 @@
+
+ ##Start with Production Branch and Create HotFix and Integration Branches:                                                                 ##Integrate Feature Branches                                                                                                                             ##Integrate Features into HotFix and then Production:
+
+# Create and initialize repo
+mkdir demo && cd demo
+git init
+
+# Initial commit
+echo "Initial" > readme.txt
+git add readme.txt
+git commit -m "Initial commit"
+
+# Create main branches
+git checkout -b production
+git checkout -b hotfix
+git checkout -b integration
+
+# Feature 1 branch from integration
+git checkout -b feature1 integration
+echo "Feature 1 - commit 1" > f1.txt
+git add f1.txt
+git commit -m "Feature 1 - commit 1"
+
+echo "Feature 1 - commit 2" >> f1.txt
+git add f1.txt
+git commit -m "Feature 1 - commit 2"
+
+# Feature 2 branch from integration
+git checkout integration
+git checkout -b feature2
+echo "Feature 2 - commit 1" > f2.txt
+git add f2.txt
+git commit -m "Feature 2 - commit 1"
+
+echo "Feature 2 - commit 2" >> f2.txt
+git add f2.txt
+git commit -m "Feature 2 - commit 2"
+
+# Merge feature branches into integration
+git checkout integration
+git merge --no-ff feature1 -m "Merge feature1"
+git merge --no-ff feature2 -m "Merge feature2"
+
+# Tag after integration
+git tag RE1.00.00
+
+# Merge integration into hotfix
+git checkout hotfix
+git merge --no-ff integration -m "Merge integration"
+git tag RE1.01.00
+
+# Merge hotfix into production
+git checkout production
+git merge --no-ff hotfix -m "Merge hotfix"
+
+# Final log view
+git log --oneline --all --graph --decorate

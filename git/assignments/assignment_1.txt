@@ -1,0 +1,9 @@
+##In a newly created repository, demonstrate the ability to change a file from untracked status to tracked and later unstage the file so that it becomes "untracked" again.
+
+mkdir demo #creating a demo repo
+cd demo   #untracked 
+git init
+echo hello>hello.txt 
+git add hello.txt #staged(tracked)
+git restore --staged hello.txt #untracked again
+

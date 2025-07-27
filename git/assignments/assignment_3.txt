@@ -1,0 +1,54 @@
+##After making a couple of commits, modify the global settings for name and email and make a couple of additional commits.
+
+View the history of the commits, which will display the old and new configurations.
+
+Later reconfigure Git to ignore files with .txt extension and add two files a.txt and b.txt into the repository.
+
+
+#initialize the repo and set up original identity
+git config user.name "Vaibhavi ls"
+git config user.email "vaibhavi1@example.com"
+
+#Making commits in the files 
+echo "file 1">file1.md 
+git add file1.md
+git commit -m "first file is added"
+
+echo "file 2">file2.md
+git add file2.md
+git commit -m "second file is added"
+
+#modifying the global settings of the repo
+git config --global user.name "vls"
+git config --global user.email "vaibhavi2@example.com"
+
+#making additional commits 
+echo "file 3">file3.md
+git add file3.md
+git commit -m "third file added"
+
+echo "file 4">file4.md
+git add file4.md
+git commit -m "fourth file added"
+
+#history of commits 
+git log --pretty=full
+
+#configuring git to ignore with files .txt
+echo "*.txt"> .gitignore
+git add .gitignore
+git commit -m "ignore the files with .txt"
+
+#adding files with .txt to ignore
+echo a>a.txt
+git add a.txt
+echo b>b.txt
+git add b.txt 
+
+#check status to see whether ignored or not 
+git status   ##not staged 
+
+
+ 
+
+

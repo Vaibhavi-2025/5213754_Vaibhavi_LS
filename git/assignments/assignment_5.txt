@@ -1,0 +1,35 @@
+##Create a branch and edit a file that you inherited from master branch. Make a commit in that branch. Before you commit a second time, stash it away.
+##Switch to master branch and create a new branch and apply the stash in that newly created branch. Then, return to the first branch and apply the stash again, and then delete that stash entry.
+
+mkdir demo
+cd demo
+git init
+
+echo hi > h.txt
+git add h.txt
+git commit -m "first commit"
+
+git checkout -b one_branch
+echo hello >> h.txt
+git add h.txt
+git commit -m "second commit"
+
+echo world >> h.txt
+git stash push -m "stashing it anyway"
+
+git checkout master
+git checkout -b second_branch
+echo okay >> h.txt
+git add h.txt
+git commit -m "commit in second_branch"
+
+git stash apply stash@{0}
+
+git checkout one_branch
+git stash apply stash@{0}
+git stash drop stash@{0}
+ 
+
+
+
+

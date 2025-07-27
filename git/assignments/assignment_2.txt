@@ -1,0 +1,21 @@
+##Add two files a.txt and b.txt into a repository. Stage and commit these files. Now delete a.txt from the working directory and the staged area, whereas delete b.txt from the staged area but retain in the working directory.
+
+#creating and adding the file(staging)
+echo hi>a.txt
+git add a.txt
+
+#commit a.txt
+git commit -m "first word"
+
+# creating and staging b.txt
+echo hello>b.txt
+git add b.txt
+
+#commit b.txt
+git commit -m "second word"
+
+#deleting a.txt  file from both working dir and staged area 
+git rm -r a.txt
+
+#deleting the file from staging area and keeping it in working dir only
+git reset HEAD b.txt
