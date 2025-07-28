@@ -1,7 +1,7 @@
 5213754_Vaibhavi_LS
 
 ## Agile Quiz Result  
-![Agile quiz result](sdlc/agile.png)
+![Agile quiz result](sdlc/agile.png.jpeg)
 
 --------------------------------------------------------
 
@@ -10,7 +10,7 @@
 
 ### Certificate
 
-![Git Course Certificate](git/git_course_certificate.png)
+![Git Course Certificate](git/git_course_certificate.png.png)
 
 ------------------------
 
