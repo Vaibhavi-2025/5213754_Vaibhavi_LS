@@ -23,3 +23,11 @@
 - [assignment_5.txt](git/assignments/assignment_5.txt)
 - [Project.txt](git/assignments/Project.txt)
 
+--------------------------------------------------------------------
+
+## Linux commands screenshots  
+
+![Linux commands screenshot_1](linux/linux_ss1.png.jpeg)
+![Linux commands screenshot_2](linux/linux_ss2.png.jpeg)
+![Linux commands screenshot_3](linux/linux_ss3.png.jpeg)
+![Linux commands screenshot_4](linux/linux_ss4.png.jpeg)
