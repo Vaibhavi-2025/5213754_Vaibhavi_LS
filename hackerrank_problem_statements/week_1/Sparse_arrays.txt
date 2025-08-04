@@ -1,0 +1,34 @@
+#include<stdio.h>
+#include<string.h>
+int main()
+{
+    int n,m;
+    scanf("%d",&n);
+    char strings[n][100];// each string is strored as row i,e 'abc'='a','b','c',/0   
+    for(int i=0;i<n;i++)
+    {
+        scanf("%s",strings[i]);
+    }
+    scanf("%d",&m);
+     char queries[m][100];
+    for(int j=0;j<m;j++)
+    {
+        scanf("%s",queries[j]);
+    }
+    int results[m];
+    for(int j=0;j<m;j++)
+    {    results[j]=0;  
+        for(int i=0;i<n;i++)
+        {
+            if (strcmp(strings[i],queries[j])==0)
+            {
+               results[j]++; 
+            }
+        }
+    }
+    for (int i=0;i<m;i++)
+    {
+        printf("%d\n",results[i]);
+    }
+    return 0;
+}  

@@ -1,0 +1,26 @@
+#include<stdio.h>
+/*convert the 12 hrs time format into 24hrs format*/
+
+#include <string.h>
+int main()
+{
+    char time[11];//hh:mm:ssam or pm along with \0
+    int hh,mm,ss;
+    char timeperiod[3];// am or pm along with \0
+    
+    scanf("%s",time);
+    sscanf(time,"%d:%d:%d%s",&hh,&mm,&ss,timeperiod);
+    if (strcmp  (timeperiod,"AM")==0)
+    {
+        if (hh==12)
+        {
+            hh=0;
+        }
+    }
+    else if (hh!=12)
+    {
+    hh=hh+12;
+    }
+    printf("%02d:%02d:%02d",hh,mm,ss);
+    return 0;
+}
