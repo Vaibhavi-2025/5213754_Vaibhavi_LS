@@ -35,8 +35,8 @@
 ----------------------------------------------------------------------
 ## Sololearn certificates 
 
-![sololearn C beginner certificate](Sololearn_certificates/C_beginner.png.jpeg)
-![sololearn C intermediate certificate](Sololearn_certificates/C_intermediate.png.jpeg)
+![sololearn C beginner certificate](Sololearn_certificates/C_beginner.png)
+![sololearn C intermediate certificate](Sololearn_certificates/C_intermediate.png)
 
 -----------------------------------------------------------------------------------------
 ## Hackerrank problem statements
