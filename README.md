@@ -31,3 +31,19 @@
 ![Linux commands screenshot_2](linux/linux_ss2.png.jpeg)
 ![Linux commands screenshot_3](linux/linux_ss3.png.jpeg)
 ![Linux commands screenshot_4](linux/linux_ss4.png.jpeg)
+
+----------------------------------------------------------------------
+## Sololearn certificates 
+
+![sololearn C beginner certificate](Sololearn_certificates/C_beginner.png.jpeg)
+![sololearn C intermediate certificate](Sololearn_certificates/C_intermediate.png.jpeg)
+
+-----------------------------------------------------------------------------------------
+## Hackerrank problem statements
+
+-[Min_Max_Sum](hackerrank_problem_statements/week_1/Min_Max_Sum.c.txt)
+-[Plus_Minus](hackerrank_problem_statements/week_1/Plus_Minus.c.txt)
+-[Sparse_arrays](hackerrank_problem_statements/week_1/Sparse_arrays.c.txt)
+-[Time_conversion](hackerrank_problem_statements/week_1/Time_conversion.c.txt)
+
+
