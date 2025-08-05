@@ -45,5 +45,8 @@
 -[Plus_Minus](hackerrank_problem_statements/week_1/Plus_Minus.c.txt)
 -[Sparse_arrays](hackerrank_problem_statements/week_1/Sparse_arrays.c.txt)
 -[Time_conversion](hackerrank_problem_statements/week_1/Time_conversion.c.txt)
-
-
+-[Lonely_integer](hackerrank_problem_statements/week_1/Lonely_integer.c.txt)
+-[Flipping_bits](hackerrank_problem_statements/week_1/Flipping_bits.c.txt)
+-[Diagonal_difference](hackerrank_problem_statements/week_1/Diagonal_difference.c.txt)
+-[Counting_sort1](hackerrank_problem_statements/week_1/Counting_sort1.c.txt)
+-[Pangrams](hackerrank_problem_statements/week_1/Pangrams.c.txt)

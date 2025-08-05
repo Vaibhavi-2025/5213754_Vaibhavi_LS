@@ -1,0 +1,17 @@
+#include<stdio.h>
+int main()
+{   unsigned int e;
+    int q;
+    scanf("%d",&q);
+    //unsigned int n;
+    //scanf ("%u",&n);
+    while(q>0)
+    {
+       unsigned int n;
+       scanf ("%u",&n); 
+       e= 0xFFFFFFFF ^ n;// can also done by 0xFFFFFFFF-n and also ~n&0xFFFFFFFF
+       printf("%u\n",e);
+       q--;
+    }
+    //printf("%u",e);
+}

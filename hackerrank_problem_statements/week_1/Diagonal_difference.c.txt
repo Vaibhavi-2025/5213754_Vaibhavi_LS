@@ -1,0 +1,26 @@
+#include<stdio.h>
+#include<stdlib.h>
+int main()
+{
+    int n;
+    scanf("%d",&n);
+    signed int arr[n][n];
+    //scanf("%d",&n);
+    for(int i=0;i<n;i++)
+    {
+        for(int j=0;j<n;j++)
+        {
+            scanf("%d",&arr[i][j]);
+        }
+    }
+     int sumd1=0;  //left diagon elements sum
+     int sumd2=0;
+   for(int i=0;i<n;i++)
+    {
+           sumd1+=arr[i][i];
+           sumd2+=arr[i][n-1-i];
+           
+     }
+     int absdiff= abs(sumd1-sumd2) ;
+     printf("%d",absdiff);
+}

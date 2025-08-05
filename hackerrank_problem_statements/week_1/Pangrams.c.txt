@@ -1,0 +1,32 @@
+#include<stdio.h>
+#include<ctype.h>
+int main()
+{
+    char str[1000];
+    int alpha[26]={0};
+    int i;
+    fgets(str,sizeof(str),stdin);
+    while(str[i]!='\0')
+    {
+        char ch=tolower(str[i]);
+        
+        if (ch>='a' && ch<='z')
+        {
+            alpha[ch-'a']=1;
+       }
+       i++;
+    }
+    int ispangram=1;
+    for(i=0;i<26;i++)
+    {
+        if(alpha[i]==0)
+        {
+            ispangram=0;
+            break;
+        }
+    }
+    if(ispangram)
+    printf("pangram");
+    else
+     printf("not pangram");
+}
