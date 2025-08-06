@@ -50,3 +50,8 @@
 -[Diagonal_difference](hackerrank_problem_statements/week_1/Diagonal_difference.c.txt)
 -[Counting_sort1](hackerrank_problem_statements/week_1/Counting_sort1.c.txt)
 -[Pangrams](hackerrank_problem_statements/week_1/Pangrams.c.txt)
+-[Permuting_arrays](hackerrank_problem_statements/week_1/Permuting_arrays.c.txt)
+-[Subarray_division](hackerrank_problem_statements/week_1/Subarray_division.c.txt)
+-[XOR_string1](hackerrank_problem_statements/week_1/XOR_string1.c.txt)
+
+

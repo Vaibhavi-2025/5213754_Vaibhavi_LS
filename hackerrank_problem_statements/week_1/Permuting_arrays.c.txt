@@ -1,0 +1,65 @@
+#include<stdio.h>
+int main()
+{
+    int q;
+    scanf("%d",&q);
+    //scanf("%d %d",&k,&n);
+    //int a[n];
+   // int b[n];
+    for(int m=0;m<q;m++)// doing the computation q number of times
+    { int n,k;
+        scanf("%d %d",&n,&k);
+         int a[n];
+         int b[n];
+    for (int i=0;i<n;i++)   
+    {
+        scanf("%d",&a[i]);
+
+    }
+    for (int j=0;j<n;j++)
+    {
+        scanf("%d",&b[j]);
+    }
+    for (int i=0;i<n;i++)//sorting array "a" in asc order
+    { int temp;
+        for (int j=0;j<n-i-1;j++)
+        {
+            if (a[j]>a[j+1])
+            {
+               temp=a[j];
+               a[j]=a[j+1];
+               a[j+1]=temp; 
+            }
+        }
+    }
+     for (int i=0;i<n;i++)//sorting array "b" in asc order
+    {   int temp;
+        for (int j=0;j<n-i-1;j++)
+        {
+            if (b[j]<b[j+1])
+            {
+               temp=b[j];
+               b[j]=b[j+1];
+               b[j+1]=temp; 
+            }
+        }
+    }
+    
+    int ispossible=1;
+    for (int i=0;i<n;i++)
+    {
+      //  if(a[i]+b[i]==k || a[i]+b[i]>k)
+      if (a[i]+b[i]<k){
+        ispossible=0;
+        break;
+      }
+      }
+    
+        if (ispossible)
+         printf("YES\n");
+        else 
+         printf("NO\n");
+            
+        
+    }
+}
