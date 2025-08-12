@@ -1,0 +1,53 @@
+#include <stdio.h>
+#include <stdbool.h>
+
+int month[] = {0,31,28,31,30,31,30,31,31,30,31,30,31};
+
+bool isLeap(int year) {
+    return (year % 400 == 0) || ((year % 4 == 0) && (year % 100 != 0));
+}
+
+int count = 0;
+
+int findPrimeDates(int d, int m, int y, int d2, int m2, int y2) {
+    while (1) {
+        // Change 1: Make sure February is updated based on leap year
+        month[2] = isLeap(y) ? 29 : 28;
+
+        // Change 2: Correct formula to match dd * 1000000 + mm * 10000 + yyyy
+        long long x = d * 1000000LL + m * 10000 + y;
+
+        // Change 3: Fix condition to use OR instead of AND
+        if (x % 4 == 0 || x % 7 == 0)
+            count++;
+
+        // Break when date reaches end date
+        if (d == d2 && m == m2 && y == y2)
+            break;
+
+        // Move to next day
+        d++;
+
+        // Change 4: Fix day overflow check using correct month days
+        if (d > month[m]) {
+            d = 1;
+            m++;
+
+            // Change 5: Fix month overflow and increment year correctly
+            if (m > 12) {
+                m = 1;
+                y++;
+            }
+        }
+    }
+
+    return count;
+}
+
+int main() {
+    int d1, m1, y1, d2, m2, y2;
+    scanf("%d-%d-%d %d-%d-%d", &d1, &m1, &y1, &d2, &m2, &y2);
+
+    printf("%d\n", findPrimeDates(d1, m1, y1, d2, m2, y2));
+    return 0;
+}

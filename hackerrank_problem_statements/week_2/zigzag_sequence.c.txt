@@ -1,0 +1,58 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+void findZigZagSequence(int a[], int n) {
+    // Step 1: sort the array
+    int i;
+    for(i = 0; i < n-1; i++) {
+        for(int j = i+1; j < n; j++) {
+            if(a[i] > a[j]) {
+                int temp = a[i];
+                a[i] = a[j];
+                a[j] = temp;
+            }
+        }
+    }
+
+    // Step 2: find mid and swap middle with last
+    int mid = (n - 1) / 2;
+    int temp = a[mid];
+    a[mid] = a[n - 1];
+    a[n - 1] = temp;
+
+    // Step 3: reverse from mid+1 to n-2 (inclusive)
+    int st = mid + 1;
+    int ed = n - 2;
+    while(st <= ed) {
+        temp = a[st];
+        a[st] = a[ed];
+        a[ed] = temp;
+        st++;
+        ed--;
+    }
+
+    // Print the zig zag sequence
+    for(i = 0; i < n; i++) {
+        printf("%d ", a[i]);
+    }
+    printf("\n");
+}
+
+int main() {
+    int t;  // number of test cases
+    scanf("%d", &t);
+
+    while(t--) {
+        int n;
+        scanf("%d", &n);
+        int a[n];
+        for(int i = 0; i < n; i++) {
+            scanf("%d", &a[i]);
+        }
+        findZigZagSequence(a, n);
+    }
+
+    return 0;
+}
