@@ -53,5 +53,26 @@
 -[Permuting_arrays](hackerrank_problem_statements/week_1/Permuting_arrays.c.txt)
 -[Subarray_division](hackerrank_problem_statements/week_1/Subarray_division.c.txt)
 -[XOR_string1](hackerrank_problem_statements/week_1/XOR_string1.c.txt)
+-[Salesby_match](hackerrank_problem_statements/week_1/Salesby_match.c.txt)
+-[drawing_book](hackerrank_problem_statements/week_1/drawing_book.c.txt)
+
+-[tower_breakers](hackerrank_problem_statements/week_1/tower_breakers.c.txt)
+
+-[Caesar_Cipher](hackerrank_problem_statements/week_1/Caesar_Cipher.c.txt)
+
+-[max_min](hackerrank_problem_statements/week_1/max_min.c.txt)
+
+-[dynamic_array](hackerrank_problem_statements/week_1/dynamic_array.c.txt)
+
+-[grid_challenge](hackerrank_problem_statements/week_1/grid_challenge.c.txt)
+
+-[prime_dates](hackerrank_problem_statements/week_1/prime_dates.c.txt)
+
+-[sherlock_and_array](hackerrank_problem_statements/week_1/sherlock_and_array.c.txt)
+
+-[recursive_digitsum](hackerrank_problem_statements/week_1/recursive_digitsum.c.txt)
+
+-[zigzag_sequence](hackerrank_problem_statements/week_1/zigzag_sequence.c.txt)
+
 
 
