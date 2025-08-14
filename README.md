@@ -74,5 +74,17 @@
 
 -[zigzag_sequence](hackerrank_problem_statements/week_1/zigzag_sequence.c.txt)
 
+-[zigzag_sequencepy](hackerrank_problem_statements/week_1/zigzag_sequence.py.txt)
+
+
+-[primedates](hackerrank_problem_statements/week_1/primedates.py.txt)
+
+
+-[counter_game](hackerrank_problem_statements/week_1/counter_game.c.txt)
+
+
+-[sumVsXor](hackerrank_problem_statements/week_1/sumVsXor.c.txt)
+
+
 
 
