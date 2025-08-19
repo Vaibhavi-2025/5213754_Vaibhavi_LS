@@ -53,63 +53,63 @@
 -[Permuting_arrays](hackerrank_problem_statements/week_1/Permuting_arrays.c.txt)
 -[Subarray_division](hackerrank_problem_statements/week_1/Subarray_division.c.txt)
 -[XOR_string1](hackerrank_problem_statements/week_1/XOR_string1.c.txt)
--[Salesby_match](hackerrank_problem_statements/week_1/Salesby_match.c.txt)
--[drawing_book](hackerrank_problem_statements/week_1/drawing_book.c.txt)
+-[Salesby_match](hackerrank_problem_statements/week_2/Salesby_match.c.txt)
+-[drawing_book](hackerrank_problem_statements/week_2/drawing_book.c.txt)
 
--[tower_breakers](hackerrank_problem_statements/week_1/tower_breakers.c.txt)
+-[tower_breakers](hackerrank_problem_statements/week_2/tower_breakers.c.txt)
 
--[Caesar_Cipher](hackerrank_problem_statements/week_1/Caesar_Cipher.c.txt)
+-[Caesar_Cipher](hackerrank_problem_statements/week_2/Caesar_Cipher.c.txt)
 
--[max_min](hackerrank_problem_statements/week_1/max_min.c.txt)
+-[max_min](hackerrank_problem_statements/week_2/max_min.c.txt)
 
--[dynamic_array](hackerrank_problem_statements/week_1/dynamic_array.c.txt)
+-[dynamic_array](hackerrank_problem_statements/week_2/dynamic_array.c.txt)
 
--[grid_challenge](hackerrank_problem_statements/week_1/grid_challenge.c.txt)
+-[grid_challenge](hackerrank_problem_statements/week_2/grid_challenge.c.txt)
 
--[prime_dates](hackerrank_problem_statements/week_1/prime_dates.c.txt)
+-[prime_dates](hackerrank_problem_statements/week_2/prime_dates.c.txt)
 
--[sherlock_and_array](hackerrank_problem_statements/week_1/sherlock_and_array.c.txt)
+-[sherlock_and_array](hackerrank_problem_statements/week_2/sherlock_and_array.c.txt)
 
--[recursive_digitsum](hackerrank_problem_statements/week_1/recursive_digitsum.c.txt)
+-[recursive_digitsum](hackerrank_problem_statements/week_2/recursive_digitsum.c.txt)
 
--[zigzag_sequence](hackerrank_problem_statements/week_1/zigzag_sequence.c.txt)
+-[zigzag_sequence](hackerrank_problem_statements/week_2/zigzag_sequence.c.txt)
 
--[zigzag_sequencepy](hackerrank_problem_statements/week_1/zigzag_sequence.py.txt)
-
-
--[primedates](hackerrank_problem_statements/week_1/primedates.py.txt)
+-[zigzag_sequencepy](hackerrank_problem_statements/week_2/zigzag_sequence.py.txt)
 
 
--[counter_game](hackerrank_problem_statements/week_1/counter_game.c.txt)
+-[primedates](hackerrank_problem_statements/week_2/primedates.py.txt)
 
 
--[sumVsXor](hackerrank_problem_statements/week_1/sumVsXor.c.txt)
+-[counter_game](hackerrank_problem_statements/week_2/counter_game.c.txt)
 
--[bomberman_game](hackerrank_problem_statements/week_1/bomberman_game.c.txt)
 
--[new_year_chaos](hackerrank_problem_statements/week_1/new_year_chaos.c.txt)
+-[sumVsXor](hackerrank_problem_statements/week_2/sumVsXor.c.txt)
 
--[Sherlock_and_the_Valid_String](hackerrank_problem_statements/week_1/Sherlock_and_the_Valid_String.c.txt)
+-[bomberman_game](hackerrank_problem_statements/week_3/bomberman_game.c.txt)
 
--[Climbing_the_Leaderboard](hackerrank_problem_statements/week_1/Climbing_the_Leaderboard.c.txt)
+-[new_year_chaos](hackerrank_problem_statements/week_3/new_year_chaos.c.txt)
 
--[Reverse_a_linked_list](hackerrank_problem_statements/week_1/Reverse_a_linked_list.c.txt)
+-[Sherlock_and_the_Valid_String](hackerrank_problem_statements/week_3/Sherlock_and_the_Valid_String.c.txt)
 
--[insert_a_node_at_a_specific_position_in_a_linked_list](hackerrank_problem_statements/week_1/insert_a_node_at_a_specific_position_in_a_linked_list.c.txt)
+-[Climbing_the_Leaderboard](hackerrank_problem_statements/week_3/Climbing_the_Leaderboard.c.txt)
 
--[Merge_two_sorted_linked_lists](hackerrank_problem_statements/week_1/Merge_two_sorted_linked_lists.c.txt)
+-[Reverse_a_linked_list](hackerrank_problem_statements/week_3/Reverse_a_linked_list.c.txt)
 
--[Ice_Cream_Parlor](hackerrank_problem_statements/week_1/Ice_Cream_Parlor.c.txt)
+-[insert_a_node_at_a_specific_position_in_a_linked_list](hackerrank_problem_statements/week_3/insert_a_node_at_a_specific_position_in_a_linked_list.c.txt)
 
-[Queue_using_Two_Stacks](hackerrank_problem_statements/week_1/Queue_using_Two_Stacks.c.txt)
+-[Merge_two_sorted_linked_lists](hackerrank_problem_statements/week_3/Merge_two_sorted_linked_lists.c.txt)
 
--[reverse_doubly_linkedlist](hackerrank_problem_statements/week_1/reverse_doubly_linkedlist.c.txt)
+-[Ice_Cream_Parlor](hackerrank_problem_statements/week_3/Ice_Cream_Parlor.c.txt)
 
--[balanced_brackets](hackerrank_problem_statements/week_1/balanced_brackets.c.txt)
+[Queue_using_Two_Stacks](hackerrank_problem_statements/week_3/Queue_using_Two_Stacks.c.txt)
 
--[waiter](hackerrank_problem_statements/week_1/waiter.c.txt)
+-[reverse_doubly_linkedlist](hackerrank_problem_statements/week_3/reverse_doubly_linkedlist.c.txt)
 
--[simple_text_editor](hackerrank_problem_statements/week_1/simple_text_editor.c.txt)
+-[balanced_brackets](hackerrank_problem_statements/week_3/balanced_brackets.c.txt)
+
+-[waiter](hackerrank_problem_statements/week_3/waiter.c.txt)
+
+-[simple_text_editor](hackerrank_problem_statements/week_3/simple_text_editor.c.txt)
 
 
 
