@@ -1,0 +1,74 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+#define MAX 100000
+
+typedef struct Stack {
+    int arr[MAX];
+    int top;
+} Stack;
+
+void init(Stack* s) {
+    s->top = -1;
+}
+
+int isEmpty(Stack* s) {
+    return s->top == -1;
+}
+
+void push(Stack* s, int val) {
+    s->arr[++(s->top)] = val;
+}
+
+int pop(Stack* s) {
+    if (isEmpty(s)) return -1; // Should not happen if used correctly
+    return s->arr[(s->top)--];
+}
+
+int peek(Stack* s) {
+    if (isEmpty(s)) return -1;
+    return s->arr[s->top];
+}
+
+void transfer(Stack* src, Stack* dest) {
+    while (!isEmpty(src)) {
+        push(dest, pop(src));
+    }
+}
+
+int main() {
+    int q;
+    scanf("%d", &q);
+
+    Stack stack_enqueue, stack_dequeue;
+    init(&stack_enqueue);
+    init(&stack_dequeue);
+
+    for (int i = 0; i < q; i++) {
+        int query_type;
+        scanf("%d", &query_type);
+
+        if (query_type == 1) {
+            // Enqueue
+            int x;
+            scanf("%d", &x);
+            push(&stack_enqueue, x);
+        } 
+        else if (query_type == 2) {
+            // Dequeue
+            if (isEmpty(&stack_dequeue)) {
+                transfer(&stack_enqueue, &stack_dequeue);
+            }
+            pop(&stack_dequeue);
+        } 
+        else if (query_type == 3) {
+            // Print front
+            if (isEmpty(&stack_dequeue)) {
+                transfer(&stack_enqueue, &stack_dequeue);
+            }
+            printf("%d\n", peek(&stack_dequeue));
+        }
+    }
+
+    return 0;
+}

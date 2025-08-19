@@ -85,6 +85,31 @@
 
 -[sumVsXor](hackerrank_problem_statements/week_1/sumVsXor.c.txt)
 
+-[bomberman_game](hackerrank_problem_statements/week_1/bomberman_game.c.txt)
+
+-[new_year_chaos](hackerrank_problem_statements/week_1/new_year_chaos.c.txt)
+
+-[Sherlock and the Valid String](hackerrank_problem_statements/week_1/Sherlock and the Valid String.c.txt)
+
+-[Climbing the Leaderboard.](hackerrank_problem_statements/week_1/Climbing the Leaderboard.c.txt)
+
+-[Reverse a linked list](hackerrank_problem_statements/week_1/Reverse a linked list.c.txt)
+
+-[insert a node at a specific position in a linked list](hackerrank_problem_statements/week_1/insert a node at a specific position in a linked list.c.txt)
+
+-[Merge two sorted linked lists](hackerrank_problem_statements/week_1/Merge two sorted linked lists.c.txt)
+
+-[Ice Cream Parlor](hackerrank_problem_statements/week_1/Ice Cream Parlor.c.txt)
+
+[Queue using Two Stacks](hackerrank_problem_statements/week_1/Queue using Two Stacks.c.txt)
+
+-[reverse_doubly_linkedlist](hackerrank_problem_statements/week_1/reverse_doubly_linkedlist.c.txt)
+
+-[balanced brackets](hackerrank_problem_statements/week_1/balanced brackets.c.txt)
+
+-[waiter](hackerrank_problem_statements/week_1/waiter.c.txt)
+
+-[simple text editor](hackerrank_problem_statements/week_1/simple text editor.c.txt)
 
 
 
