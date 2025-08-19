@@ -89,27 +89,27 @@
 
 -[new_year_chaos](hackerrank_problem_statements/week_1/new_year_chaos.c.txt)
 
--[Sherlock and the Valid String](hackerrank_problem_statements/week_1/Sherlock and the Valid String.c.txt)
+-[Sherlock_and_the_Valid_String](hackerrank_problem_statements/week_1/Sherlock_and_the_Valid_String.c.txt)
 
--[Climbing the Leaderboard.](hackerrank_problem_statements/week_1/Climbing the Leaderboard.c.txt)
+-[Climbing_the_Leaderboard](hackerrank_problem_statements/week_1/Climbing_the_Leaderboard.c.txt)
 
--[Reverse a linked list](hackerrank_problem_statements/week_1/Reverse a linked list.c.txt)
+-[Reverse_a_linked_list](hackerrank_problem_statements/week_1/Reverse_a_linked_list.c.txt)
 
--[insert a node at a specific position in a linked list](hackerrank_problem_statements/week_1/insert a node at a specific position in a linked list.c.txt)
+-[insert_a_node_at_a_specific_position_in_a_linked_list](hackerrank_problem_statements/week_1/insert_a_node_at_a_specific_position_in_a_linked_list.c.txt)
 
--[Merge two sorted linked lists](hackerrank_problem_statements/week_1/Merge two sorted linked lists.c.txt)
+-[Merge_two_sorted_linked_lists](hackerrank_problem_statements/week_1/Merge_two_sorted_linked_lists.c.txt)
 
--[Ice Cream Parlor](hackerrank_problem_statements/week_1/Ice Cream Parlor.c.txt)
+-[Ice_Cream_Parlor](hackerrank_problem_statements/week_1/Ice_Cream_Parlor.c.txt)
 
-[Queue using Two Stacks](hackerrank_problem_statements/week_1/Queue using Two Stacks.c.txt)
+[Queue_using_Two_Stacks](hackerrank_problem_statements/week_1/Queue_using_Two_Stacks.c.txt)
 
 -[reverse_doubly_linkedlist](hackerrank_problem_statements/week_1/reverse_doubly_linkedlist.c.txt)
 
--[balanced brackets](hackerrank_problem_statements/week_1/balanced brackets.c.txt)
+-[balanced_brackets](hackerrank_problem_statements/week_1/balanced_brackets.c.txt)
 
 -[waiter](hackerrank_problem_statements/week_1/waiter.c.txt)
 
--[simple text editor](hackerrank_problem_statements/week_1/simple text editor.c.txt)
+-[simple_text_editor](hackerrank_problem_statements/week_1/simple_text_editor.c.txt)
 
 
 
